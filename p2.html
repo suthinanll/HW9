@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- code คล้ายเดิมจากหน้า index และ p1 และ มีการปรับการแสดงผล Grid -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 9</title>
+    <!-- ลิงก์นำเข้า Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            font-family: kanit;
+        }
+
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .btnnext {
+            background-color: rgb(255, 255, 255);
+            padding: 15px 40px;
+            text-decoration: none;
+            color: rgb(3, 3, 3);
+            text-align: center;
+            border: 1px solid rgb(184, 184, 184);
+            border-radius: 40px;
+        }
+
+        .btnnext:hover {
+            background-color: rgb(218, 218, 218);
+            ;
+            color: rgb(0, 0, 0);
+        }
+
+        footer p {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">K-Travel</a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="p1.html">6 Unseen แลนมาร์คในเมืองเก่าริมน้ำ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="p2.html">นครวัด ที่ทั้งเหมือน และ ไม่เหมือนกับที่คิด</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="p3.html">เช็คอิน 10 ที่เที่ยวทะเลหมอก</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="py-5 text-center container-fluid bg-info text-white">
+        <div class="row py-lg-5">
+            <div class="col-lg-7 col-md-8 mx-auto">
+                <h1 class="fw-blod">สถานที่ท่องเที่ยวที่แนะนำ <i class="bi bi-airplane-fill"></i></h1>
+                <p class="lh-lg">
+                    เว็บไซต์ที่มา : <a class="text-white"
+                        href="https://reachandgrab.wordpress.com/2018/08/23/%F0%9F%A7%A1-6-unseen-%E0%B9%81%E0%B8%A5%E0%B8%99%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%84%E0%B9%83%E0%B8%99%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2/"
+                        target="_blank">6 Unseen แลนมาร์คในเมืองเก่าริมน้ำ จ.เพชรบุรี</a><br>
+                    เว็บไซต์ที่มา : <a class="text-white" href="https://wander-more.net/2017/09/14/angkor-wat/"
+                        target="_blank">Angkor Wat : นครวัด ที่ทั้งเหมือน และไม่เหมือนกับที่คิด</a><br>
+                    เว็บไซต์ที่มา : <a class="text-white"
+                        href="https://www.traveloka.com/th-th/explore/destination/check-in-10-foggy-sea-for-winter/51556"
+                        target="_blank">เช็คอิน 10 ที่เที่ยวทะเลหมอกหนาวนี้ชวนแฟนไปกอดกัน</a>
+                </p>
+            </div>
+        </div>
+    </div><br>
+
+    <nav style="--bs-breadcrumb-divider: '>'; margin-left: 2em;" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">นครวัด ที่ทั้งเหมือน และ ไม่เหมือนกับที่คิด</li>
+        </ol>
+    </nav>
+
+    <div class="container" style="margin-left: 1em;">
+        <h2>Angkor Wat: นครวัด ที่ทั้งเหมือน และไม่เหมือนกับที่คิด│ Wander More</h2>
+        <h3>เรายืนรอกันอยู่นาน จนท้องฟ้าเริ่มเป็นสีชมพู ตามมาด้วยสี…</h3><br>
+    </div>
+    <div class="container">
+        <div class="row">
+            <img class="col-sm-12 col-md-4 col-lg-3 img-thumbnail" src="img/p2_1.jpg" alt="รูปภาพสถานที่ท่องเที่ยว">
+            <img class="col-sm-12 col-md-4 col-lg-3 img-thumbnail" src="img/p2_2.jpg" alt="รูปภาพสถานที่ท่องเที่ยว">
+            <img class="col-sm-12 col-md-4 col-lg-3 img-thumbnail" src="img/p2_3.jpg" alt="รูปภาพสถานที่ท่องเที่ยว">
+            <img class="col-sm-12 col-md-4 col-lg-3 img-thumbnail" src="img/p2_4.jpg" alt="รูปภาพสถานที่ท่องเที่ยว">
+
+        </div><br>
+        ฉันยืนอออยู่ท่ามกลางฝูงชนมากมาย เหมือนเดินอยู่ในตลาดนัด ท่ามกลางอากาศร้อนอบอ้าวจนต้องอาบเหงื่อต่างน้ำ
+        ฉันเดินลงข้างทาง หาที่หลบมุม วางเป้ลงข้างบันไดหินที่ทำขึ้นจากศิลาแลงผุกร่อนแต่ยังคงทนทานสู้กาลเวลา อากาศร้อนๆ
+        ยามบ่ายบังคับให้ฉันต้องรวบผมขึ้นสูง แล้วทนฝืนใส่หมวกเพื่อกันแสงแดดจ้าที่ดูไม่ค่อยจะปรานีกับใคร
+        แปลกที่เขมรอากาศร้อนกว่าบ้านเราเยอะ ทั้งๆ ที่ดูเหมือนจะมีพื้นที่สีเขียวเยอะกว่า <br><br>
+        ‘ไม่ไหวแล้ว พรุ่งนี้ค่อยมาใหม่’ ฉันถอดใจ หลังจากทนฝูงชนที่พลุกพล่านมากเกินไปไม่ไหว
+        ดูเหมือนผู้คนจากทั่วโลกจะพร้อมใจกันหลั่งไหลมาที่นี่
+
+        เฉพาะจุดฉันยืนอยู่ คงมีคนไม่น้อยกว่าร้อยคน
+
+        เด็กเขมรตัวเล็กๆ หลายคน วิ่งตามนักท่องเที่ยวเพื่อขายโปสการ์ดกับพัดไม้กันจ้าละหวั่น ฉันโบกมือเพื่อบอกปัดไปหลายรอบ
+        โชคดีที่เด็กๆ สนใจนักท่องเที่ยวฝรั่งมากกว่า <br><br>
+        วันต่อมา… ฉันตื่นตั้งแต่ตี 5 เพื่อไปดูพระอาทิตย์ขึ้นที่นครวัด หวังไว้ในใจว่าการไปช่วงเช้าๆ
+        อากาศจะร้อนน้อยกว่าช่วงบ่าย ฉันนัดลุงขับรถสามล้อคนหนึ่งให้มารับหน้าที่พัก ลุงก็มารับตรงเวลา
+        รถมอเตอร์ไซค์สามล้อของเราขับไปตามถนนเมืองเสียมเรียบอย่างไม่รีบร้อน
+
+        อากาศตอนเช้ามืด เป็นอากาศที่หอมดีเสียจริง
+
+        ไอน้ำค้างเย็นๆ ตามใบหญ้า เหมือนจะลอยมาให้ได้กลิ่น<br><br>
+
+        รถสามล้อของเราวิ่งผ่านป่าข้างทางที่มืดมิด มีแสงไฟจากถนนเป็นช่วงๆ ฉันหันมองข้างทางเป็นระยะๆ พลางสงสัยว่า
+        ป่าในเมืองจะมีสิงสาราสัตว์อยู่หรือเปล่า หากมี…พวกมันจะตื่นหรือหลับอยู่ในเวลานี้…<br><br>
+        <img class="col-sm-12 col-md-4 col-lg-6 img-thumbnail" src="img/p2_5.jpg" alt="รูปภาพสถานที่ท่องเที่ยว"><br><br>
+        ตี 5 ครึ่ง ฉันเดินทางถึงนครวัด มีกลุ่มนักเดินทางมาถึงก่อนหน้าฉันแล้วมากมาย เราต่างพกไฟฉายมา
+        เพราะในยามนั้นทุกอย่างยังมืดมิด เดินไม่เห็นทาง ฉันเดินลึกเข้าไปเรื่อยๆ อย่างคนรู้ทาง
+        ผ่านโป๊ะลอยน้ำขนาดยักษ์ที่ทำไว้เพื่อให้นักท่องเที่ยวเดินข้ามสระบัว<br><br>
+
+        นักเดินทางทุกคน ต่างจับจองหามุมถ่ายรูปเพื่อให้ได้ภาพออกมาน่าประทับใจที่สุด ส่วนฉัน เดินออกไปอีกฝั่ง
+        เพื่อบันทึกภาพพวกเขาเอาไว้ ทุกคนยอมตื่นเช้า ไม่ได้กินข้าว เดินทางมาที่เดียวกันราวกับนัดกันไว้ <br><br>
+
+        เพื่อมาให้สถานที่แห่งนี้ประทับรอยความทรงจำให้พวกเขาเอากลับบ้าน<br>
+
+        ฉันถือเป็นเพื่อนร่วมอุดมการณ์<br>
+        เรายืนรอกันอยู่นาน จนท้องฟ้าเริ่มเป็นสีชมพู ตามมาด้วยสีเหลือง สีส้ม ทุกคนใจจดใจจ่อ
+        ราวกับมาดูโชว์สุดตระการตา<br><br>
+
+        <div class="container">
+            <div class="row">
+                <img class="col-sm-12 col-md-4 col-lg-4 img-thumbnail" src="img/p2.3_1.jpg" alt="รูปภาพสถานที่ท่องเที่ยว">
+                <img class="col-sm-12 col-md-4 col-lg-4 img-thumbnail" src="img/p2.3_2.jpg" alt="รูปภาพสถานที่ท่องเที่ยว">
+                <img class="col-sm-12 col-md-4 col-lg-4 img-thumbnail" src="img/p2.3_3.jpg" alt="รูปภาพสถานที่ท่องเที่ยว">
+                <img class="col-sm-12 col-md-4 col-lg-4 img-thumbnail" src="img/p2.3_4.jpg" alt="รูปภาพสถานที่ท่องเที่ยว">
+                <img class="col-sm-12 col-md-4 col-lg-4 img-thumbnail" src="img/p2.3_5.jpg" alt="รูปภาพสถานที่ท่องเที่ยว">
+                <img class="col-sm-12 col-md-4 col-lg-4 img-thumbnail" src="img/p2.3_6.jpg" alt="รูปภาพสถานที่ท่องเที่ยว">
+            </div><br>
+
+        พระอาทิตย์ขึ้นแล้ว…<br>
+
+        ตอนนี้เอง ฉันสนใจดูปฏิกิริยาของคนรอบข้างมากกว่าสนใจพระอาทิตย์เสียอีก…<br>
+
+        คู่รักนักเดินทางคู่หนึ่งกุมมือกัน แล้วหันมามอง ยิ้มให้กันอย่างมีความหมาย<br>
+
+        หญิงฝรั่งคนหนึ่ง เดินไปด้านหน้าใกล้ปราสาทแล้วอ้าแขนกว้างๆ ให้เพื่อนถ่ายภาพ<br>
+        โดยไม่สนว่าตนเองกำลังบังกล้องคนอีกหลายร้อยคน<br><br>
+
+        เด็กผู้หญิงชาวจีนตัวเล็กๆ คนนึง ไม่สนใจสิ่งที่พ่อแม่พามาดู
+        เพราะเธอกำลังสนใจลูกแมวที่เดินหาเศษอาหารอยู่บนลานดินมากกว่า<br><br>
+
+        วัยรุ่นฝรั่งกลุ่มหนึ่ง เอนกายเอกเขนกอยู่ข้างสระ โดยไม่สนว่าตนเองจะเปื้อนดินโคลน หรือมีกบเขียดริ้นไรมาไต่ขา
+        คงเพราะสิ่งที่เห็นตรงหน้านั้นสำคัญมากกว่า<br><br>
+
+        ชายฝรั่งสูงวัยในเสื้อซาฟารีคนหนึ่ง ยืนยิ้มเพียงลำพัง…<br><br>
+
+        ในความคิดของใครหลายๆ คนที่อุตส่าห์เดินทางข้ามโลกมาถึงที่นี่เพื่อให้ได้นอนตายตาหลับ ดังคำที่มีคนเคยกล่าวไว้
+        อาจมองว่า นครวัดที่เต็มไปด้วยผู้คน ไม่ได้มีบรรยากาศเงียบสงบดังที่หวัง<br><br>
+
+        แม้แต่เสียมเรียบยังถูกทำให้เป็นเมืองท่องเที่ยว บรรยากาศเหมือนเดินในตรอกข้าวสาร
+
+        แต่ตอนเช้ามืดของวันนั้นเองที่ฉันรู้สึกว่า มนต์เสน่ห์ความขลังและความงดงามของนครวัด ยังคงไม่ทำให้ใครผิดหวังเลย. <br><br>
+    </div>
+    </div>
+
+    <footer>
+        <p class="text-center py-4 bg-dark">copyright © 2024 Suthinan lamlong IT sec 1</p>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
